@@ -3,7 +3,6 @@ import media
 import fresh_tomatoes
 
 
-
 rangastalam = media.Jashu("Rangastalam", "Brother Sentiment",
                           "https://bit.ly/2KHHLei",
                           "https://www.youtube.com/embed/sueMmTm-M")
@@ -22,4 +21,3 @@ ghajinikanth = media.Jashu("Ghajinikanth", "comedy",
 
 movies = [rangastalam, nps, ban, avengers, ghajinikanth]
 fresh_tomatoes.open_movies_page(movies)
-
